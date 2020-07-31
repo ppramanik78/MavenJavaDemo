@@ -11,6 +11,7 @@ public class TestController {
 
 @GetMapping
 public String hello() {
+	System.out.println("First Code");
 return "Hello Spring Boot";
 }
 
